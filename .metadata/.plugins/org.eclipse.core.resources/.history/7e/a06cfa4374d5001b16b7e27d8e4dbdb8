@@ -1,0 +1,32 @@
+package com.leetcode;
+
+import java.util.*;
+
+public class Test {
+	final int a;
+	{
+		a=10;
+	}
+	public Test() {
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Integer> li= new ArrayList<>();
+		li.add(10);
+		ArrayList<Integer>l= (ArrayList<Integer>) li.clone();
+		l.add(3);
+		Queue<Integer> q= new PriorityQueue<Integer>();
+		q.add(1);
+		q.add(2);
+		q.add(3);
+		q.add(4);
+		for(Integer b:q){  
+		    System.out.println(b);  
+		 } 
+		System.out.println(q.peek());
+
+	}
+
+}

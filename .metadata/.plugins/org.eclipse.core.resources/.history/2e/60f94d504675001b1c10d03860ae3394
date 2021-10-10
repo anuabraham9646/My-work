@@ -1,0 +1,48 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class DutchNationFlag {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int arr[]= new int[] {0, 1, 2, 2, 1, 0, 0, 2, 0, 1, 1, 0};
+		
+		help(arr);
+		
+
+	}
+
+	private static void help(int[] arr) {
+
+		int z=0;
+		int t= arr.length-1;
+		
+		while(arr[z]==0) {
+			z++;
+		}
+		while(arr[t]==2) {
+			t--;
+		}
+		
+		if(z>=arr.length-1 || t<=0)
+			return;
+		int xz=z;
+		int xt=t;
+		
+		while(xz<=xt) {
+			if(xz++==0 || xt--==0)
+				arr[++z]=0;
+			else if(xt--==2 || xz++==2)
+				arr[--t]=2;
+			else if(xz++== 1 || xt-- ==1);
+		}
+		while(xz<xt)
+			arr[xz++]=1;
+		
+		Arrays.stream(arr).forEach(x -> System.out.print(x+" "));
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package arrays;
+
+public class A { public static void main(String args[]) 
+{ 
+    String s = "\"I have always tried to understand the customer's requirements, analyze the root cause and come up with a solution that best suits the context. Then discussion with the team helps to implement it in an efficient way. For this I have worked on ANT scripts initially to help feed the CI/CD pipeline and performance issue so as to analyze what problems can bE faced by the customer . i have worked in A FAIR WAY TO IMPROVE THE  performance issues AND ALSO helped me to find the root cause of issue which slows down the application over time which can be a let down for customers hence working on these i HAVE FELT A SENSE OF helpING the customer with a ERROR FREE and responsIVE sERVICES\r\n"
+    		+ "\""; 
+
+
+    // converting string s to lowercase letter 
+    // using TURKISH and ENGLISH language 
+    String gfg3 = s.toLowerCase(); 
+    System.out.println(gfg3); 
+}}

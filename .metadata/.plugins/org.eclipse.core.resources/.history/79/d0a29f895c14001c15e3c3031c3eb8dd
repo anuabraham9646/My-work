@@ -1,0 +1,18 @@
+package array;
+
+public class Leetcode_Q79_WordSearch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[][] board= new char [][] {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+		String word="ABCCED";
+		System.out.println(exist(board,word));
+
+	}
+	public static boolean exist(char[][] board, String word) {
+        
+		
+		return false;
+    }
+
+}

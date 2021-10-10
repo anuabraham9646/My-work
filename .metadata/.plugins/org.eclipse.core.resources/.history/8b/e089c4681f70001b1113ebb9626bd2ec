@@ -1,0 +1,12 @@
+package arrays;
+
+public class A { public static void main(String args[]) 
+{ 
+    String s = "I have a FAIR UNDERSTANDING OF THE BUSINESS PRACTICES at gsk i have worked with differenT TEAMS ON UNDERSTANDING FROM HOW THE REQUIREMENT IS TAILORED TILL DEVELOPMENT TO TESTING AND DOCUMENTION PHASE AS WELL AS POST DEPLOYMENT PHASE I HAVE BEEN INVOLVED IN EVERY ASPECTS DIRECTLY OR INDIRECTLY MOREOVER DIFFERENT PROCESS RELATED LEARNING AT GSK HELPED ME UNDERSTAND HOW THE BUSINESS OPERATES UNDER DIFFERENT ENVIRONMENTS"; 
+
+
+    // converting string s to lowercase letter 
+    // using TURKISH and ENGLISH language 
+    String gfg3 = s.toLowerCase(); 
+    System.out.println(gfg3); 
+}}

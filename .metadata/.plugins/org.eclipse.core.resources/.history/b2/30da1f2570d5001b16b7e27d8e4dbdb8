@@ -1,0 +1,20 @@
+package com.leetcode;
+
+import java.util.*;
+
+public class Test {
+	final int a;
+	{
+		a=10;
+	}
+	public Test() {
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Set<Integer> hs= new HashSet<>();
+
+	}
+
+}

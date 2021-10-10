@@ -1,0 +1,10 @@
+package heap;
+
+public class Q1792MaximumAveragePassRatio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

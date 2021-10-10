@@ -1,0 +1,13 @@
+package arrays;
+
+public class A { public static void main(String args[]) 
+{ 
+    String s = "\"i have participated in hackathons organized by the TCS team and was able to be ranked 7 IN KICKOFF HACKATHON .I always have the passion to learn technologies and bridge my learning gap.I HAVE ATTENDED THE DIFFERENT webinar SESSIONs ON MDM, E360,to learn the full stack technology of the project,   .I have Acquired the folllowing iEvolve competencies: 1) Foundation : JSP / Servlet / JSTL E2. 2) Foundation : Core Java E2. 3) Foundation : Java - JDBC E1. 4) Agile Way of Working- E1 . 5) Digital : Python - E0 Acquired the following Internal certification: 1) Foundation : Core Java Concepts_Foundation 2) Foundation : Java Servlets 3) ILP : Java Programming V2.0 4) Digital : Cloud Computing 5) Process : Agile Way of Working 6) Digital : Internet Of Things Acquired the following External certification: 1) Data structure and algorithm using Python 2) Advanced data structures and algorithm(Udemy) also i have completed all the mandatory courses in Ievolve\r\n"
+    		+ "\""; 
+
+
+    // converting string s to lowercase letter 
+    // using TURKISH and ENGLISH language 
+    String gfg3 = s.toLowerCase(); 
+    System.out.println(gfg3); 
+}}

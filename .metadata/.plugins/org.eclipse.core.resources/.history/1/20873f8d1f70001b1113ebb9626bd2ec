@@ -1,0 +1,12 @@
+package arrays;
+
+public class A { public static void main(String args[]) 
+{ 
+    String s = "i am an avid listener i listen to others opinion first on the matter which is being discussed to get a fair overview of how other person thinks. also i provide my bits of information effectively in every discussion be it internal or infront of customer or to the other teams in our ecosystem. also in our team itself i feel i have created a good understanding with everyone so that they can reach out to me first on any issue or help they require.i have had many discussions with the ctms testing and development team while debugging the defects and letting the team know diligently of any incorrect input data being passed."; 
+
+
+    // converting string s to lowercase letter 
+    // using TURKISH and ENGLISH language 
+    String gfg3 = s.toLowerCase(); 
+    System.out.println(gfg3); 
+}}

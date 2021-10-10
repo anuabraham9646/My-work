@@ -1,0 +1,57 @@
+package collection;
+
+import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
+//import java.util.concurrent.CopyOnWriteArrayList;
+
+public class C1 {
+	int a;
+	int b;
+	C1(){
+		a=10;
+		b=5;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * C1 a= new C1(); C1 b= a; b.a=55; System.out.println(a.a);
+		 * //ArrayList<Integer> c= new ArrayList<>(); CopyOnWriteArrayList<Integer> c=
+		 * new CopyOnWriteArrayList<>(); c.add(1); c.add(2); c.add(3);
+		 * ListIterator<Integer> itr= c.listIterator(); int i=0; while(itr.hasNext()) {
+		 * 
+		 * if(i==2) c.remove(2); itr.next(); i++; } System.out.println(i);
+		 * System.out.println(c); Map<String,String> hash= new HashMap<>();
+		 * hash.put("kk", "ll"); hash.put("kk1", "l2l"); Iterator <Map.Entry<String,
+		 * String>> it = hash.entrySet().iterator(); while(it.hasNext()) {
+		 * Map.Entry<String, String> ent=it.next(); System.out.println(ent.getKey());
+		 * it.remove(); } System.out.println(hash.toString());
+		 */
+		/*int arr[]= new int[] {1,6,3,5};
+		Arrays.sort(arr);
+		int ans=1;
+		//System.out.println(arr[1]);
+		for(int i: arr) {
+			if(i<=0)
+				continue;
+			if(i > ans)
+				System.out.println("final ans= "+ans);
+			else if(ans >i)
+				ans++;
+		}*/
+		
+		
+		int a=99;
+		
+		int sum=0;
+		while(a>0) {
+			int val = a%10;
+			sum+=val;
+			val= val/10;
+			
+		}
+		System.out.println(sum);
+
+	}
+
+}
